@@ -1,0 +1,10 @@
+install.packages("RMySQL")
+library(RMySQL)
+library(DBI)
+x = c(1, 2, 3, 4)
+class(x)
+length(x)
+y = list(17, "A nice day", TRUE)
+class(y)
+length(y)
+
